@@ -125,6 +125,16 @@ button{
     font-size: 30px;
     font-weight: bolder;
 }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 36px;
+    font-size: 18px;
+}
+
 
 li{
     list-style-type: none;
