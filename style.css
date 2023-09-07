@@ -9,6 +9,22 @@ body{
     justify-content: space-between;
     padding: 0 48px 20px 48px;
 }
+.header{
+    background-color: #1F2937;
+}
+#hero-main{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+#secondary-text{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+#header-logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
 ul{
     display: flex;
     gap:24px;
@@ -18,7 +34,16 @@ ul{
     align-items: center;
     justify-content: space-between;
     flex: 1;
-    padding: 0 48px 20px 48px;
+    padding: 0 48px 100px 48px;
+}
+button{
+    background-color: #3882F6;
+    padding: 8px 30px 8px 30px;
+    border-radius:8px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
 }
 .image{
     background-color: lightgray;
@@ -31,12 +56,17 @@ ul{
 #some-info{
     text-align: center;
     padding-bottom: 30px;
-    padding-top: 30px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 .container{
    display: flex;
    align-items: center;
    justify-content: center;
+}
+.mid-section{
+    padding: 50px 0 100px 0;
 }
 .box{
     height: 200px;
@@ -45,13 +75,58 @@ ul{
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
+    border: 5px #3882F6 solid;
 }
 .wrapper{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+.quote-section{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 8rem;
+}
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+#author{
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 30px;
+}
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+.signup{
+    height: 100px;
+    width: 1000px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 36px;
+    color: #F9FAF8;
+}
+#signup{
+    border: #F9FAF8 3px solid;
+}
+#call{
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 li{
     list-style-type: none;
+    color: #F9FAF8;
 }
